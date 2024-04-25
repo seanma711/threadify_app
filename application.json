@@ -1,11 +1,31 @@
 {
   "pages": [
     {
-      "id": "Home",
+      "id": "Page1",
       "isDefault": false
     },
     {
-      "id": "Page1",
+      "id": "RestockOrders Page",
+      "isDefault": false
+    },
+    {
+      "id": "Home3",
+      "isDefault": false
+    },
+    {
+      "id": "purchases page",
+      "isDefault": false
+    },
+    {
+      "id": "suppliers Page",
+      "isDefault": false
+    },
+    {
+      "id": "Customer Page",
+      "isDefault": false
+    },
+    {
+      "id": "Home",
       "isDefault": true
     }
   ],

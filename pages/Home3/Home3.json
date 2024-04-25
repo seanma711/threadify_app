@@ -1,26 +1,27 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Home3",
+    "slug": "home3",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
+          "rightColumn": 4896,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 630,
+          "bottomRow": 620,
           "containerStyle": "none",
-          "snapRows": 128,
+          "snapRows": 124,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1300,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,16 +29,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Api1",
+              "id": "Home3_Api1",
               "name": "Api1",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Page1_Api2",
-              "name": "Api2",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -47,7 +40,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Home3",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -58,5 +51,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "662984aca874e755591d1649_1bf0db57-f775-4819-90eb-55e5562b919e"
+  "gitSyncId": "662984aca874e755591d1649_73cad243-290b-4642-874d-523223f04ca0"
 }

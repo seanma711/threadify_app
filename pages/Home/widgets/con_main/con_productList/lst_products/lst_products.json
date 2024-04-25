@@ -15,8 +15,7 @@
         {"key": "primaryKeys"},
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"},
-        {"key": "listData"}
+        {"key": "boxShadow"}
     ],
     "leftColumn": 0,
     "enhancements": true,
@@ -76,7 +75,7 @@
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "lst_products",
-    "listData": "{{getProducts.data}}",
+    "listData": "",
     "displayName": "List",
     "bottomRow": 73,
     "parentRowSpace": 10,

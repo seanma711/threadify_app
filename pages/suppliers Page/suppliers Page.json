@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "suppliers Page",
+    "slug": "suppliers-page",
     "layouts": [
       {
         "viewMode": false,
@@ -28,16 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Api1",
-              "name": "Api1",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Page1_Api2",
-              "name": "Api2",
+              "id": "suppliers Page_getSuppliers",
+              "name": "getSuppliers",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -47,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "suppliers Page",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -58,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "662984aca874e755591d1649_1bf0db57-f775-4819-90eb-55e5562b919e"
+  "gitSyncId": "662984aca874e755591d1649_0518b037-c538-4559-9c5e-8ba37bac6089"
 }

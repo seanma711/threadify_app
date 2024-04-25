@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Customer Page",
+    "slug": "customer-page",
     "layouts": [
       {
         "viewMode": false,
@@ -28,26 +28,30 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Api1",
-              "name": "Api1",
+              "id": "Customer Page_getCustomers",
+              "name": "getCustomers",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
-              "id": "Page1_Api2",
-              "name": "Api2",
+              "id": "Customer Page_getCustomerPurchases",
+              "name": "getCustomerPurchases",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "tbl_userInfo.selectedRow.CustomerID"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Customer Page",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -58,5 +62,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "662984aca874e755591d1649_1bf0db57-f775-4819-90eb-55e5562b919e"
+  "gitSyncId": "662984aca874e755591d1649_4969097e-fba3-48d4-ba08-d27c5aae6601"
 }

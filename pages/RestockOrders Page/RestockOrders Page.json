@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "RestockOrders Page",
+    "slug": "restockorders-page",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 630,
+          "bottomRow": 670,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -28,16 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Api1",
-              "name": "Api1",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Page1_Api2",
-              "name": "Api2",
+              "id": "RestockOrders Page_restockOrders",
+              "name": "restockOrders",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -47,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "RestockOrders Page",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -58,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "662984aca874e755591d1649_1bf0db57-f775-4819-90eb-55e5562b919e"
+  "gitSyncId": "662984aca874e755591d1649_20e7485b-52f4-4fd7-9d90-c964eaf47848"
 }
